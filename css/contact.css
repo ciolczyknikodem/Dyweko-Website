@@ -1,0 +1,175 @@
+
+.menu_bar {
+    text-align: center;
+    background: rgba(173,216,230, 0.5);
+    padding-bottom: 30px;
+    padding-top: 3px;
+    border-bottom-right-radius: 240px;
+}
+
+.menu {
+  color:#999;
+  background:rgba(95,158,160, 0.5);
+  padding: 10px 30px;
+  font-size:15px;
+  color: black;
+  margin: 10px;
+  margin-top: 20px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.menu:hover {
+    color: orange;
+    background: rgba(47,79,79,0.5);
+    border-radius: 25px;
+    transition: all .2s ease-out;
+}
+
+h1 {
+    font-family: Chicle;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 0;
+    float: center;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+h2 {
+    font-family: Varela Round;
+    margin-left:250px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#logo {
+    content: url("resources/logoDyweko2.png");
+    float: right;
+    padding-top 25px;
+    right: 20px;
+    top: 10px;
+    position: relative;
+    margin-right: 0;
+}
+
+#layout{
+    width: 900px;
+    height: 800px;
+    background: url('resources/pranie1.jpg') top left no-repeat;
+    float: left;
+    border-radius: 400px;
+}
+
+#content {
+    background-color: rgba(128,128,0,0.8);
+    float: right;
+    width: 550px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 770px;
+    box-shadow: 8px 8px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+p {
+    text-shadow: 1px 0px 0px black;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Merriweather' sans-serif;
+    letter-spacing: 1px;
+}
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+
+    animation-name: input_area;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+input, textarea {
+    border: 0px; outline: 0px;
+    border-color: black;
+    padding: 16px;
+    display: block;
+    width: 100%;
+    resize: none;
+    border-radius: 8px;
+    box-shadow: black;
+    background-color: rgba(220,220,220);
+
+}
+
+textarea {
+    margin-top: 16px;
+    margin-left: 50px;
+    padding-bottom: 110px;
+}
+
+#submit {
+    color: white;
+    background: red;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    margin-left: 25px;
+}
+
+#submit:hover {
+    color: white;
+    background: rgb(178,34,34,0.8);
+}
+
+textarea {
+    height: 126px;
+}
+
+.half {
+    float: left;
+    width: 48%;
+    margin-bottom: 16px;
+}
+
+.right {
+    width: 50%;
+}
+
+.left {
+    margin-right: 2%;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    display: block;
+    background-color: gray;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.footer {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size:12px;
+    color: black;
+    text-decoration:none;
+    letter-spacing:1px;
+    text-transform:uppercase;
+
+}
+
+#shop {
+    display: inline;
+    margin: 50px;
+}
+
+#contact {
+    display: inline;
+    margin: 50px;
+}

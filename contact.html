@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="javascript/submit.js"></script>
+    <title> Dyweko - najlepsza jakość prania na wskroś</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="pralnia dywanów, pranie na wskroś" />
+    <meta name="author" content="Nikodem Ciołczyk" />
+    <meta name="description" content="Pralnia dywanów na wskroś Kraków Chrzanów Trzebinia Libiąż" />
+</head>
+
+<header class="menu_bar">
+    <div id="logo"></div>
+
+    <h1>Pralnia dywanów</h1>
+    <h2>Najlepsza jakość prania na wskroś!</h2>
+
+    <a href="index.html" class="menu">Strona Główna</a>
+    <a href="" class="menu">Cennik</a>
+    <a href="contact.html" class="menu">Kontakt</a>
+    <a href="" class="menu">O mnie</a>
+
+</header>
+
+<body class="body">
+    <form class="contact">
+        <div class="half left contact">
+
+            <p>Imię</p>
+            <input type="text" id="input-name" placeholder="Imię">
+
+            <p>Adres email</p>
+            <input type="text" id="email" placeholder="Adres email">
+
+            <p>Temat</p>
+            <input type="text" id="subject" placeholder="Temat">
+
+        </div>
+
+        <div class="half right contact">
+            <p>Wiadomość</p>
+            <textarea type="text" id="message-content" placeholder="Treść wiadomości"></textarea>
+        </div>
+
+        <input type="button" onclick="submit_button()" value="Wyślij" id="submit">
+    </form>
+
+    <footer>
+        <div id="shop"><a href="" class="footer">Sklep z dywanami</a></div>
+        <div id="contact"><a href="contact.html" class="footer">Kontakt</a></div>
+    </footer>
+
+</body>
+</html>
