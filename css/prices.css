@@ -61,7 +61,6 @@ footer {
     display: block;
     background-color: gray;
     text-align: center;
-    margin-top: 140px;
 }
 
 .footer {
@@ -108,6 +107,7 @@ footer {
 .headings {
     float:left;
     width: 70%;
+    margin-bottom: 9em;
 }
 
 .heading {
