@@ -1,0 +1,130 @@
+
+.menu_bar {
+    text-align: center;
+    background: rgba(173,216,230, 0.5);
+    padding-bottom: 30px;
+    padding-top: 3px;
+    border-bottom-right-radius: 240px;
+}
+
+.menu {
+  color:#999;
+  background:rgba(95,158,160, 0.5);
+  padding: 10px 30px;
+  font-size:15px;
+  color: black;
+  margin: 10px;
+  margin-top: 20px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.menu:hover {
+    color: orange;
+    background: rgba(47,79,79,0.5);
+    border-radius: 25px;
+    transition: all .2s ease-out;
+}
+
+h1 {
+    font-family: Chicle;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 0;
+    float: center;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+h2 {
+    font-family: Varela Round;
+    margin-left:250px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#logo {
+    content: url("resources/logoDyweko2.png");
+    float: right;
+    padding-top 25px;
+    right: 20px;
+    top: 10px;
+    position: relative;
+    margin-right: 0;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    display: block;
+    background-color: gray;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.footer {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size:12px;
+    color: black;
+    text-decoration:none;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+#shop {
+    display: inline;
+    margin: 50px;
+}
+
+#contact {
+    display: inline;
+    margin: 50px;
+}
+
+.firstTitle {
+    text-align: center;
+    font-family: times;
+    font-size: 40px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.breakLineTitles {
+    background-color: rgba(122,94,0);
+    padding:2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 7px;
+
+}
+
+.prices {
+    background-color: rgba(173,216,230, 0.5);
+}
+
+.headings {
+    float:left;
+    width: 70%;
+}
+
+.heading {
+    border-bottom: 2px solid;
+    margin-left: 20%;
+    text-align: left;
+    font-family: times;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.price {
+    width:30%;
+    float:left;
+    font-family: Black Ops One;
+    font-size: 25px;
+    margin-top: 15px;
+    padding-top: 5px;
+    text-align: left;
+}
